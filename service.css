@@ -62,11 +62,12 @@ span {
     margin: auto;
     display: grid;
     max-width: 100%;
-    height: 6vw;
+    height: 5vw;
     grid-template-rows: auto auto;
     grid-template-columns: auto auto auto auto;
     align-items: center;
     justify-content: space-around;
+    /* border: 1px solid black; */
 }
 
 
@@ -76,13 +77,19 @@ span {
     height: 100vh;
 }
 
-h5 {
+#main-container p{
+    width: 51%;
+    margin-top: 0;
+    margin-bottom: 1vw;
+}
+
+span h5 {
     font-family: 'Rajdhani', sans-serif;
     font-size: 1.2vw;
     cursor: pointer;
     font-weight: 900;
     text-align: center;
-    position: relative;
+    align-self: baseline;
 }
 
 .button::after {
@@ -150,10 +157,8 @@ p {
 
 #footer-container{
     min-width: 100%;
-    height: 15vw;
+    height: 16vw;
     background-color: rgba(0, 0, 0, 0.959);
-    position: relative;
-    bottom: 0;
 }
 
 #footer-subContainer1{
@@ -223,16 +228,16 @@ width: 50%;
     span {
         padding: 1vw 0vw 0vw 0vw;
         display: grid;
-        row-gap: 1.3vw;
+        /* row-gap: 1.3vw; */
         column-gap: 0vw;
         grid-template-rows: auto auto auto auto;
         grid-template-columns: auto auto ;
-        height: 16vw;
+        height:22vw;
     }
 
-    h5 {
+    span h5 {
 
-        font-size: 2.5vw;
+        font-size: 3.5vw;
         text-align: center;
     }
 
@@ -240,6 +245,10 @@ width: 50%;
         font-size: 3vw;
     }
 
+    #main-container p{
+        width: 80%;
+        font-weight: 600;
+    }
 
     #image1 {
         width: 50vw;
@@ -289,6 +298,8 @@ width: 50%;
         font-size: 4vw;
         padding: 3.3vw;
     }
+
+
 }
 
 
